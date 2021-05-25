@@ -26,7 +26,7 @@ import {
 } from "./Connectors";
 
 const ConnectorNames = {
-  Injected: "Injected",
+  Injected: "Metamask",
   Network: "Network",
   WalletConnect: "WalletConnect",
   WalletLink: "WalletLink",
