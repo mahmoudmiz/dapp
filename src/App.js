@@ -66,6 +66,7 @@ function getErrorMessage(error) {
 
 function getLibrary(provider) {
   const library = new Web3Provider(provider);
+  console.log(library);
   library.pollingInterval = 12000;
   return library;
 }
